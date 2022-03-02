@@ -1,0 +1,21 @@
+create server.js
+
+npm init
+create .gitignore put in it node_modules and .env
+
+From the root => npm i express dotenv mongose colors
+
+install nodemon if you dont have globaly => npm i -D nodemon
+
+see if your dependencies are installed in packege.json
+
+in "script" add "start": "node backend/server.js",
+                "server": "nodemon backend/server.js"
+
+and then npm run server
+it's will be fine 
+
+create a git repository
+git init
+git add .
+git commit -m 'rep description'
