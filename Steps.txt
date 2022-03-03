@@ -19,3 +19,17 @@ create a git repository
 git init
 git add .
 git commit -m 'rep description'
+
+Go to server.js and past this
+
+    const express = require('express')
+    const dotenv = require('dotenv').config()
+    const port = 5000
+
+    const app = express()
+
+    app.listen(port, () => {console.log(`listen on port ${port}`)})
+
+In the root create A .env file and past  
+    NODE_ENV = developement 
+    PORT = 8000
